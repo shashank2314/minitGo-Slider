@@ -18,7 +18,7 @@ function Slider() {
   
 
   return (
-      <div className="p-[28px] h-screen max-w-maxContentTab lg:max-w-maxContent bg-blue-500 text-white flex justify-center items-center">
+      <div className=" p-[10px] sm:px-[28px] py-[28px] h-screen max-w-maxContentTab lg:max-w-maxContent bg-blue-500 text-white flex justify-center items-center">
         <Swiper
           slidesPerView={1}
           spaceBetween={25}
