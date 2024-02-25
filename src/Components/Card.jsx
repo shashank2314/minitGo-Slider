@@ -20,7 +20,7 @@ export default function Card({ product }) {
         return p.id === product.id;
     }
     return (
-        <div className={Hover?"scale-110 w-[300px] p-[.7rem] gap-[10px] shadow-[0px_0px_14px_black] rounded-xl text-black bg-white":" w-[300px] p-[.7rem] gap-[10px] shadow-[0px_0px_14px_black] rounded-xl text-black bg-white"} onMouseOver={()=>sethover(true)} onMouseOut={()=>sethover(false)}>
+        <div className={Hover?"scale-110 w-[220px] sm:w-[300px] p-[.7rem] gap-[10px] shadow-[0px_0px_14px_black] rounded-xl text-black bg-white":" w-[220px] sm:w-[300px]  p-[.7rem] gap-[10px] shadow-[0px_0px_14px_black] rounded-xl text-black bg-white"} onMouseOver={()=>sethover(true)} onMouseOut={()=>sethover(false)}>
             <div className="w-full flex flex-col gap-[10px] p-[1rem]">
                 <div className="flex items-baseline">
                     <h2 className="text-[1.1rem] h-[1.1rem]">{product?.title?.substring(0, 16)}</h2>
